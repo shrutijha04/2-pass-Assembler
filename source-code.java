@@ -3,7 +3,7 @@ import java.util.*;
 import java.lang.*;
 
 
-class Code_2019231_2019274{
+class Main{
 	public static HashMap<String,String> op_assembly = new HashMap<String,String>(); //Hashmap for opcodes.
 	public static HashMap<String,Integer> label_table = new HashMap<String,Integer>(); // Hashmap for labels and their addresses.
 	public static HashMap<String,Integer> symbol_table = new HashMap<String,Integer>(); // Hashmap for symbols and their addresses.
